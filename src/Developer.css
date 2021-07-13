@@ -1,0 +1,10 @@
+.uploadFile > .upload {
+  font-size: 20px;
+  padding: 10px;
+}
+
+input {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}

@@ -9,7 +9,13 @@ function Developer() {
         <button class="home">
         Home        
         </button>
-      </NavLink> 
+      </NavLink>
+      <div className="uploadFile"> 
+        <input type="file"/> 
+        <button class="upload"> 
+          Upload! 
+        </button> 
+      </div>  
     </div>
   )
 }

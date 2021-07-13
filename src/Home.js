@@ -8,12 +8,12 @@ function Home() {
       <h1>conversational app builder</h1>
       <NavLink to="/developer">
         <button class="developer">
-        Developer        
+          Developer        
         </button>
       </NavLink> 
       <NavLink to="/user">
         <button class="user">
-        User        
+          User        
         </button>
       </NavLink> 
     </div>

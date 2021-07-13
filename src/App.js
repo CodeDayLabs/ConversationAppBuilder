@@ -7,13 +7,12 @@ import User from './User';
 function App() {
   return (
     <Router>
-        <div className="App">
+      <div className="App">
         <Route exact path="/" component={Home} />
         <Route path="/developer" component={Developer} />
         <Route path="/user" component={User} />
-        </div>
+      </div>
     </Router>
-
   );
 }
 
