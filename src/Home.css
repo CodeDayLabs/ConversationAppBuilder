@@ -1,5 +1,13 @@
 h1 {
-  font-size: 20px;
+  font-family: 'Pathway Gothic One', sans-serif;
+  position: relative;
+  left:-570px; 
+  font-size: 40px;
+  top:-50px;
+}
+.home{
+  position: relative;
+  left:-400px; 
 }
 
 button {
