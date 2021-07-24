@@ -9,7 +9,8 @@ function User() {
         <button class="home">
           Home        
         </button>
-      </NavLink> 
+      </NavLink>
+      
     </div>
   )
 }
