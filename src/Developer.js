@@ -56,9 +56,9 @@ class Developer extends Component {
           </NavLink>
           <div>
             <input type="file" onChange={this.onFileChange} />
-            <button onClick={this.onFileUpload}>
-              Upload!
-            </button>
+            {/* <button onClick={this.onFileSave}>
+              Save!
+            </button> */}
           </div>
           {this.fileData()}
           {this.state.selectedFile && <ImageThumb image={this.state.selectedFile} />}
