@@ -1,7 +1,6 @@
 import './Developer.css'
 import axios from 'axios';
 import React,{Component} from 'react';
-import { NavLink } from 'react-router-dom' 
 
 class Developer extends Component {
     state = {
@@ -39,7 +38,7 @@ class Developer extends Component {
       } else {
         return (
           <div>
-            <h1>select a file</h1>
+            <h1>Select a File</h1>
           </div>
         );
       }
@@ -48,12 +47,7 @@ class Developer extends Component {
     render() {
       return (
         <div>
-          <h1>developer</h1>
-          <NavLink to="/">
-          <button class="home">
-            Home        
-          </button>
-          </NavLink>
+          <h1>Developer</h1>
           <div>
             <input type="file" onChange={this.onFileChange} />
             {/* <button onClick={this.onFileSave}>
