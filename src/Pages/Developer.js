@@ -1,7 +1,6 @@
 import './Developer.css'
 import axios from 'axios';
 import React,{Component} from 'react';
-import { NavLink } from 'react-router-dom' 
 
 class Developer extends Component {
     state = {
@@ -49,11 +48,6 @@ class Developer extends Component {
       return (
         <div>
           <h1>Developer</h1>
-          <NavLink to="/">
-          <button class="home">
-            Home        
-          </button>
-          </NavLink>
           <div>
             <input type="file" onChange={this.onFileChange} />
             <button onClick={this.onFileUpload}>
