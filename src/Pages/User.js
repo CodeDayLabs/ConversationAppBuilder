@@ -3,7 +3,21 @@ import './User.css'
 function User() {
   return (
     <div className="User">
-      <h1>User</h1>    
+      <div className="categories">
+        <button>Category</button> 
+        <button>Category</button> 
+        <button>Category</button> 
+        <button>Category</button> 
+        <button>Category</button> 
+      </div>
+      <div className="options">
+        <p>Name of Program</p>
+        <button>Select</button> 
+      </div> 
+      <input></input>
+      <div className="output">
+        Ouput to question.
+      </div>
     </div>
   )
 }
