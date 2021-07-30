@@ -1,6 +1,9 @@
-import './Developer.css'
 import axios from 'axios';
 import React,{Component} from 'react';
+import './Developer.css'
+import cloud from '../Images/cloud.png';
+
+
 
 class Developer extends Component {
     state = {
@@ -14,14 +17,15 @@ class Developer extends Component {
     onFileUpload = () => {
       const formData = new FormData();
       formData.append(
-        "myFile",
+        "file",
         this.state.selectedFile,
         this.state.selectedFile.name, 
         this.state.selectedFile.size, 
         this.state.selectedFile.ImageThumb
       );
       console.log(this.state.selectedFile);
-      axios.post("api/uploadfile", formData);
+      console.log(formData);
+      axios.post("http://localhost:4000/uploader", formData);
     };
     
     fileData = () => {
@@ -38,7 +42,7 @@ class Developer extends Component {
       } else {
         return (
           <div>
-            <h1>Select a File</h1>
+            <h2>Select a File</h2>
           </div>
         );
       }
@@ -46,8 +50,16 @@ class Developer extends Component {
 
     render() {
       return (
-        <div>
-          <h1>Developer</h1>
+        <div className="title">
+        <img src={cloud} className="cloud" alt="maincloud"/>
+          <h1>INSTRUCTIONS TO UPLOAD AN APP</h1>
+          <ul className="list">
+              <li> Click on the...</li>
+              <li> Select a file....</li>
+              <li> Make sure the format of the file..</li>
+              <li> The size of the file has to be...</li>
+              <li> Click submit and wait till it successfully...</li>
+          </ul>
           <div>
             <input type="file" onChange={this.onFileChange} />
             <button onClick={this.onFileUpload}>

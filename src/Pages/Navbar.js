@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import logo from '../Images/logo.jpg';
+import logo from '../Images/logo.png';
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
@@ -17,10 +17,12 @@ const Navbar = () => {
 
 	return (
 		<nav className="navbar">
-        <img src={logo} className="logo" alt="logo"/>
-			<Link to="/" className="nav-logo">
-				ConvaBuild
-			</Link>
+			<div className="nav-logo-container">
+				<img src={logo} className="logo" alt="logo"/>
+				<Link to="/" className="nav-logo">
+					ConvaBuild
+				</Link>
+			</div>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
@@ -36,13 +38,13 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/developer" className="nav-link" onClick={closeMenu}>
-						Developer
+					<Link to="/user" className="nav-link" onClick={closeMenu}>
+						User
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/user" className="nav-link" onClick={closeMenu}>
-						User
+					<Link to="/developer" className="nav-link" onClick={closeMenu}>
+						Developer
 					</Link>
 				</li>
 			</ul>
