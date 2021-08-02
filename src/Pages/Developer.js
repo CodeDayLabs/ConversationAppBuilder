@@ -62,9 +62,9 @@ class Developer extends Component {
           </ul>
           <div>
             <input type="file" onChange={this.onFileChange} />
-            <button onClick={this.onFileUpload}>
-              Upload!
-            </button>
+            { <button onClick={this.onFileSubmit}>
+              Submit!
+            </button> }
           </div>
           {this.fileData()}
           {this.state.selectedFile && <ImageThumb image={this.state.selectedFile} />}

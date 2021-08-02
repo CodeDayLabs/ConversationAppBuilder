@@ -1,7 +1,7 @@
 .navbar {
 	height: 80px;
-	background:black;
-	color:#f2f6fc;
+	background:#f2f6fc;
+	color:black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -22,7 +22,7 @@
 }
 .nav-logo {
 	text-decoration: none;
-	color:#f2f6fc;
+	color:black;
     font-weight: bold;
     font-size:25px;
 }
@@ -36,7 +36,7 @@
 
 .nav-link {
 	text-decoration: none;
-	color:#f2f6fc;
+	color:black;
 	transition: 0.3s all;
     font-weight: bold;
 }

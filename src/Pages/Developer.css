@@ -3,7 +3,7 @@
     padding: 10px;
   }
  .title {
-    background-color: black;
+    background-color: #f2f6fc;
     width:99vw;
     height:45vw;
   }
@@ -20,7 +20,7 @@
     top:150px;
     right:470px;
     text-align: center;
-    color:white; 
+    color:black; 
     font-weight: bold;
 
     
@@ -33,11 +33,12 @@
     width:850px;
   }
   p {
-    color:white;
+    color:black;
   }
   .file {
-    color:white;
+    color:black;
   }
   .list {
     bottom:10px;
+    color: black;
   }

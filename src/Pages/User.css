@@ -1,25 +1,25 @@
 .User {
-    display: inline-flex;
-    flex-direction: column;
-    width: 200px;
-    height: 300px;
-    padding: 0px;
-    margin: 200px;
-  }
-  
-  .options {
-    padding: 30px;
-    margin: 30px;
-  }
-  
-  .categories {
-    display: flex;
-    flex-direction: row;
-    width: 400px;
-    position: relative;
-    left: -70px;
-  }
-  
-  .output {
-    padding: 30px;
-  }
+  display: inline-flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  padding: 0px;
+  margin: 200px;
+}
+
+.options {
+  padding: 30px;
+  margin: 30px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  position: relative;
+  left: -70px;
+}
+
+.output {
+  padding: 30px;
+}
