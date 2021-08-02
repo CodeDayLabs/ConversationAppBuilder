@@ -25,7 +25,7 @@ class Developer extends Component {
       );
       console.log(this.state.selectedFile);
       console.log(formData);
-      axios.post("http://localhost:4000/uploader", formData);
+      axios.post("http://localhost:3000/uploader", formData);
     };
     
     fileData = () => {
