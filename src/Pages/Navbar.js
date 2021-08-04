@@ -18,9 +18,6 @@ const Navbar = () => {
 	return (
 		<nav className="navbar">
         <img src={logo} className="logo" alt="logo"/>
-			<Link to="/" className="nav-logo">
-				ConvaBuild
-			</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
