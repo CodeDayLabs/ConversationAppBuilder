@@ -1,11 +1,13 @@
 import React from 'react';
 import './Home.css';
-import main from '../Images/main.png';
 
 const Home = () => {
     return (
-        <div className="home">
-          <img src={main} className="main" alt="main"/>
+        <div className="landing" >
+            <div>
+                <h1>DEVELOP AND CONNECT</h1>
+                <h2>Simply upload your app and let users interact</h2>
+            </div>
         </div>
     )
 }

@@ -19,6 +19,9 @@
   font-size: calc(10px + 2vmin);
   color:blue;
 }
+.NavBar{
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.2);
+}
 
 .App-link {
   color: #61dafb;
