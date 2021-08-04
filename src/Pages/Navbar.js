@@ -19,9 +19,6 @@ const Navbar = () => {
 		<nav className="navbar">
 			<div className="nav-logo-container">
 				<img src={logo} className="logo" alt="logo"/>
-				<Link to="/" className="nav-logo">
-					ConvaBuild
-				</Link>
 			</div>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
@@ -29,22 +26,17 @@ const Navbar = () => {
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
 				<li className="nav-item">
 					<Link to="/" className="nav-link" onClick={closeMenu}>
-						Home
-					</Link>
-				</li>
-				<li className="nav-item">
-					<Link to="/about" className="nav-link" onClick={closeMenu}>
-						About
+						HOME 
 					</Link>
 				</li>
 				<li className="nav-item">
 					<Link to="/user" className="nav-link" onClick={closeMenu}>
-						User
+						USER
 					</Link>
 				</li>
 				<li className="nav-item">
 					<Link to="/developer" className="nav-link" onClick={closeMenu}>
-						Developer
+						DEVELOPER
 					</Link>
 				</li>
 			</ul>

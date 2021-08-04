@@ -1,8 +1,6 @@
 import axios from 'axios';
 import React,{Component} from 'react';
 import './Developer.css'
-import cloud from '../Images/cloud.png';
-
 
 
 class Developer extends Component {
@@ -51,7 +49,6 @@ class Developer extends Component {
     render() {
       return (
         <div className="title">
-        <img src={cloud} className="cloud" alt="maincloud"/>
           <h1>INSTRUCTIONS TO UPLOAD AN APP</h1>
           <ul className="list">
               <li> Click on the...</li>

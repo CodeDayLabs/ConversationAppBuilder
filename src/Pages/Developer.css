@@ -3,7 +3,6 @@
     padding: 10px;
   }
  .title {
-    background-color: #f2f6fc;
     width:99vw;
     height:45vw;
   }
@@ -25,13 +24,7 @@
 
     
   }
-  .cloud {
-    position: relative;
-    bottom:100px;
-    left:-10px;
-    height:450px;
-    width:850px;
-  }
+
   p {
     color:black;
   }
