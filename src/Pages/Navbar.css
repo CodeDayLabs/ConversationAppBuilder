@@ -10,16 +10,10 @@
 	font-size: 1.2rem;
 }
 .logo {
-    height:45px;
-    width:250px;
+	height:45px;
+	width:250px;
 	position: relative;
-    left:25px;
-
-.logo {
-	height:30px;
-	width:50px;
-	position:relative;
-	left:40px;
+	left:25px;
 }
 .nav-logo-container {
 	display: flex;
