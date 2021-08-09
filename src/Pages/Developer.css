@@ -11,27 +11,26 @@
     font-size: 20px;
     margin: 0;
     padding: 0;
+    position: relative;
+    top: 300px;
   }
-  .title h1 {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 27px;
-    position: absolute;
-    top:150px;
-    right:470px;
-    text-align: center;
-    color:black; 
-    font-weight: bold;
+  .button {
+    position: relative; 
+    top: 300px;
+    font-size: 18px;
+    color: green;
+  }
+  h3 {
+    position: relative; 
+    top:175px;
+    font-size: 33px;
+  }
 
-    
-  }
-
-  p {
-    color:black;
-  }
   .file {
     color:black;
   }
   .list {
     bottom:10px;
     color: black;
+    position: relative;
   }
